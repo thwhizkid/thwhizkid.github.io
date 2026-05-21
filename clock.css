@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clock-container{
+    border: 7px solid none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: red;
+}
+
+p{
+    font-size: 10rem;
+    font-weight: bold;
+    border: 2rem solid white;
+    border-radius: 1rem;
+    padding: 3rem 6.5rem;
+    color: lightskyblue;
+}
+
+.clock-face{
+    font-size: 10rem;
+    font-weight: bold;
+    border: 2rem solid white;
+    border-radius: 1rem;
+    padding: 3rem 6.5rem;
+}
+
+button{
+    font-size: 30px;
+    
+}

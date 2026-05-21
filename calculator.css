@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-container {
+background-color: rgb(51, 51, 51)
+}
+
+button{
+    padding: 20px;
+    padding-left: 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    gap: 40px;
+    
+}
+
+#screen{
+    height: 60px;
+    width: 100px;
+    background-color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+

@@ -1,0 +1,70 @@
+ body{
+    background-color: lightskyblue;
+    margin: 0px;
+    border-radius: 0px;
+}
+ a {
+        color: lightslategrey;
+        text-decoration: none;
+        padding: 8px 12px;
+        display: block;
+        margin: 30px;
+        transition: ease-in-out 0.3s;
+        background-color: lightblue;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    nav{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(129, 240, 255, 0.726);
+    
+    
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+a:hover{
+    background-color: blue;
+    height: fit-content;
+    color: black;
+    -webkit-box-shadow: 21px 12px 33px 8px rgba(0,0,0,0.85);
+-moz-box-shadow: 21px 12px 33px 8px rgba(0,0,0,0.85);
+box-shadow: 21px 12px 33px 8px rgba(0,0,0,0.85);
+}
+
+.img-cont{
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 10px;
+    justify-content: left;
+    margin-left: 30px;
+    
+}
+
+img{  
+    width: 150px;
+    height: 110px;
+}
+
+.bot-sec{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+h3{
+    background-color: lightslategray;
+}
+
+i{
+    background-color: rgba(180, 221, 237);
+    font-size: 1.4rem;
+    padding: 10px;
+}
